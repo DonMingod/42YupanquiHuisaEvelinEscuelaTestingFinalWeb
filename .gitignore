@@ -1,8 +1,17 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+
+# Serenity reports
+/target/site/
+/serenity/
+/target/serenity/
+/target/site/serenity/
+/target/surefire-reports/
+/target/failsafe-reports/
+*.log
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -37,3 +46,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
