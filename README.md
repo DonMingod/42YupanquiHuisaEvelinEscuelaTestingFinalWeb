@@ -65,8 +65,3 @@ Ubicación del reporte:
 
 - `target/site/serenity/index.html`
 
----
-
-## Ejecución del proyecto
-
-Para ejecutar todas las pruebas:
